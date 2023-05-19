@@ -1,0 +1,80 @@
+body {
+ background-image: linear-gradient(to right, rgba(255,0,0,0.5), rgba(229, 255, 0, 0.5)),url("papel-de-parede-adesivo-gourmet-marcas-preto-e-branco-autocolante.jpg" );
+}
+
+header{
+  position: relative;
+  display: flex;
+  background: white;
+  width: 80%;
+  height: 10%;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0px 2px 3px rgb(150, 149, 149);
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  top: 25px;
+ 
+}
+
+.logo{
+  width: 20%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.produtos ul{
+  display: flex;
+  margin-right:20px;
+}
+
+.itens{
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  list-style-type: none;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.itens:hover{
+ transform: scale(1.2);
+  
+}
+
+.imagens{
+  display: flex;
+}
+
+.banner{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.texto{
+  position: relative;
+  top: 150px;
+  left: 0;
+  width: 70%;
+  height: 800px;
+  background: white;
+  color: white;
+  margin: 0 auto;
+  box-shadow:0px 2px 3px rgb(150, 149, 149);
+}
+
+.fundo{
+  width: 100%;
+}
+
+.titulo{
+  position: absolute; /* define a posição absoluta para a imagem do título */
+  top: 35%; /* define a distância do topo do elemento pai */
+  left: 50%; /* define a distância da esquerda do elemento pai */
+  transform: translate(-50%, -50%); /* centraliza a imagem do título */
+}
+
